@@ -6,9 +6,9 @@ int main()
 	y = 1;
 	scanf_s("%d", &x);
 	if (x < 2)
-		printf("ÄãµÄÊäÈë²»¶Ô");
+		printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë²»ï¿½ï¿½");
 	else if (x == 2)
-		printf("ËØÊý");
+		printf("ï¿½ï¿½ï¿½ï¿½");
 	else
 	{
 		while (i <= (x / 2)) {
@@ -20,9 +20,9 @@ int main()
 				i++;
 		}
 		if (y != 0)
-			printf("ËØÊý");
+			printf("ï¿½ï¿½ï¿½ï¿½");
 		else
-			printf("ºÏÊý");
+			printf("ï¿½ï¿½ï¿½ï¿½");
 	};
 	return 0;
 }
